@@ -28,20 +28,20 @@ The script `run_analysis.R` performs the following process to clean up the data 
 
 ### Variables
 
-train.x - table contents of `train/X_train.txt`
-train.y - table contents of `train/y_train.txt`
-train.subject - table contents of `test/subject_train.txt`
-trainData - combined training data set
-test.x - table contents of `test/X_test.txt`
-test.y - table contents of `test/y_test.txt`
-test.subject - table contents of `test/subject_test.txt`
-testData - combined testing data set
-fullData - merged training and testing data
-featureName - table contents of `features.txt`
-featureIndex - extracted mean and standard deviation index
-finalData - temp of the first output tidy data set
-activityName - table contents of `activity_labels.txt`
-groupData - temp of the second output tidy data set with the average of each variable for each activity and each subject.
+- train.x - table contents of `train/X_train.txt`
+- train.y - table contents of `train/y_train.txt`
+- train.subject - table contents of `test/subject_train.txt`
+- trainData - combined training data set
+- test.x - table contents of `test/X_test.txt`
+- test.y - table contents of `test/y_test.txt`
+- test.subject - table contents of `test/subject_test.txt`
+- testData - combined testing data set
+- fullData - merged training and testing data
+- featureName - table contents of `features.txt`
+- featureIndex - extracted mean and standard deviation index
+- finalData - temp of the first output tidy data set
+- activityName - table contents of `activity_labels.txt`
+- groupData - temp of the second output tidy data set with the average of each variable for each activity and each subject.
 
 ### Output
 
